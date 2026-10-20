@@ -134,7 +134,6 @@ fit_quasipoisson <- glm(
   data    = dat
 )
 
-# 2. Check the dispersion model from your DGLM fit
 summary(fit$d_glm)
 # ==============================================================================
 # 1. Fit the Comparison Models
